@@ -1,1 +1,1 @@
-# go template project for the docker container
+# The template projefot of golang for the docker container.
