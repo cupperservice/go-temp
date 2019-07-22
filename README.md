@@ -1,1 +1,1 @@
-# go-temp
+# go template project for the docker container

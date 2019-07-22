@@ -1,0 +1,12 @@
+version: '3.1'
+services:
+  your-service:
+    image: golang
+    build: 
+      context: ./your-service
+      dockerfile: Dockerfile
+    volumes:
+      - ./go:/go
+      - .:/root/workspace
+      - ~/.gitconfig:/root/.gitconfig
+    command: tail -f > /dev/null
